@@ -11,23 +11,16 @@ gene_expression/
 │   ├── 1_preprocessing.ipynb           # Data loading, cleaning, and preprocessing
 │   ├── 2_clustering_analysis.ipynb     # Unsupervised clustering and evaluation
 │   ├── 3_cluster_interpretation.ipynb  # Gene analysis and interpretation
-│   └── exploration.ipynb               # Original analysis (legacy)
-├── dataset/
-│   ├── HiSeq.tar.gz                   # Raw TCGA gene expression data
-│   ├── gene_expression_merged.csv      # Processed merged dataset
-│   ├── X_scaled.npy                   # Standardized features
-│   ├── X_reduced.npy                  # Variance-filtered features
-│   ├── y_labels.csv                   # Cancer type labels
-│   ├── clustering_results.csv          # Cluster assignments
-│   ├── discriminant_genes.csv          # Key genes per cluster
-├── figures/
-│   ├── cancer_type_distribution.png    # Sample distribution
-│   ├── pca_visualization.png          # PCA plots
-│   ├── clustering_comparison.png       # Cluster vs true labels
-│   ├── confusion_matrix_heatmap.png   # Performance visualization
-│   └── gene_expression_heatmaps.png   # Gene signature analysis
-└── data/
-    └── TCGA-PANCAN-HiSeq-801x20531/   # Extracted raw data
+│   ├──exploration.ipynb               # Original analysis (legacy)
+│   └── figures/
+│       ├── cancer_type_distribution.png    # Sample distribution
+│       ├── pca_visualization.png          # PCA plots
+│       ├── clustering_comparison.png       # Cluster vs true labels
+│       ├── confusion_matrix_heatmap.png   # Performance visualization
+│       └── gene_expression_heatmaps.png   # Gene signature analysis
+├── .gitignore
+└──README.md
+
 ```
 
 ## Workflow
