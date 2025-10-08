@@ -11,13 +11,13 @@ gene_expression/
 │   ├── 1_preprocessing.ipynb           # Data loading, cleaning, and preprocessing
 │   ├── 2_clustering_analysis.ipynb     # Unsupervised clustering and evaluation
 │   ├── 3_cluster_interpretation.ipynb  # Gene analysis and interpretation
-│   ├──exploration.ipynb               # Original analysis (legacy)
-│   └── figures/
-│       ├── cancer_type_distribution.png    # Sample distribution
-│       ├── pca_visualization.png          # PCA plots
-│       ├── clustering_comparison.png       # Cluster vs true labels
-│       ├── confusion_matrix_heatmap.png   # Performance visualization
-│       └── gene_expression_heatmaps.png   # Gene signature analysis
+│   └──exploration.ipynb               # Original analysis (legacy)
+├──figures/
+│   ├── cancer_type_distribution.png    # Sample distribution
+│   ├── pca_visualization.png          # PCA plots
+│   ├── clustering_comparison.png       # Cluster vs true labels
+│   ├── confusion_matrix_heatmap.png   # Performance visualization
+│   └── gene_expression_heatmaps.png   # Gene signature analysis
 ├── .gitignore
 └──README.md
 
